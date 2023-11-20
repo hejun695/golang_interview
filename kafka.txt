@@ -1,0 +1,77 @@
+面试题汇总
+
+https://blog.csdn.net/wanghaiping1993/article/details/125346010
+
+
+https://www.bilibili.com/read/cv15613713
+
+Offset
+
+
+偏实战 https://www.cnblogs.com/edisonchou/p/kafka_study_notes_part9.html
+
+消费者
+
+https://blog.csdn.net/qq_51235856/article/details/128876738
+
+controller 控制器
+
+第一个在zookeeper中创建 controller节点的broker为 控制器
+
+
+https://cloud.tencent.com/developer/article/2005100
+
+ISR
+
+replica.lag.time.max.ms
+
+概念解析
+https://www.jianshu.com/p/eadbe7387289
+
+尽量保证消息的不丢失
+
+https://blog.csdn.net/qrne06/article/details/94225070
+
+
+Golang 应用
+
+客户端 sarama
+https://zhuanlan.zhihu.com/p/412869212
+
+
+acks的作用  0 只要发送出去即成功  1 只要leader副本写磁盘成功   all 所有isr副本都写成功才算成功
+
+https://blog.csdn.net/weixin_60067160/article/details/123034255
+
+
+Unclean.leader.election.enable  = false   若为true，则不在isr中的副本是可以当leader的，数据可靠性无法保证
+
+生产者 producer  acks = all
+
+消费者 consumer enable.auto.commit = false
+
+副本机制
+
+https://blog.csdn.net/qq_34561892/article/details/127831079
+
+副本选举
+
+https://blog.csdn.net/qq_43692950/article/details/125036297
+
+生产者 producer
+
+https://zhuanlan.zhihu.com/p/526051663
+rebalance
+
+https://www.shuzhiduo.com/A/obzbjXm3zE/
+
+
+
+思路清晰的一篇
+
+https://blog.csdn.net/qq_35901141/article/details/115710558
+
+Sarama
+
+
+https://zhuanlan.zhihu.com/p/424381035

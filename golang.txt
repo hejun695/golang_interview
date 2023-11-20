@@ -1,0 +1,121 @@
+Reflect 反射
+    https://juejin.cn/post/6844903559335526407
+    https://studygolang.com/articles/28157?fr=sidebar
+    反射本质：
+    在程序编译期将变量的反射信息，如字段名称、类型信息、结构体信息等整合到可执行文件中，并给程序提供接口访问反射信息，这样就可以在程序运行期获取类型的反射信息，并且有能力修改它们。
+
+如何实现超时控制
+    https://learnku.com/articles/55729
+golang pprof
+    https://github.com/HobbyBear/performance-analyze
+golang服务优雅关闭
+    https://zhuanlan.zhihu.com/p/571016778
+    signal.Notify  context.WithTimeOut
+    https://juejin.cn/post/6854573220810391560
+GC调优
+    https://zhuanlan.zhihu.com/p/501808700
+    https://www.jianshu.com/p/9949faa989d1
+atomic原理
+    cpu的CAS操作
+    https://kunkkawu.com/archives/shen-ru-li-jie-golang-de-atomic-yuan-zi-cao-zuo
+
+并发编程
+
+
+https://kekek.cc/post/go-sync.html
+
+
+1）并发控制
+全局变量
+channel
+src/runtime/chan.go
+
+Waitgroup
+Context
+https://blog.csdn.net/shenziheng1/article/details/113924703
+
+Runtime
+ runtime.gosched
+runtime.goexit
+runtime.GOMAXPROCS()
+2）并发安全
+
+锁
+sync.Once
+原子操作
+sync.Map
+https://zhuanlan.zhihu.com/p/493208600
+https://www.jianshu.com/p/1a50330adf1b
+
+几道并发编程题
+https://blog.csdn.net/qq_42011039/article/details/129813477
+
+
+sync.Cond
+https://blog.csdn.net/K346K346/article/details/95673050
+
+sync.WaitGroup 实现
+https://zhuanlan.zhihu.com/p/632190680
+
+竞态检测
+
+https://www.51cto.com/article/749113.html
+
+https://blog.csdn.net/wan212000/article/details/128816444
+go run -race $(PWD)/cmd/$(SERVICE) --conf $(PWD)/configs/$(ENV)/$(SERVICE)/ $(ARGS)
+
+sync.Map
+
+https://blog.csdn.net/qq_20817327/article/details/117447138
+
+Context
+https://blog.csdn.net/shenziheng1/article/details/113924703
+泛型
+https://segmentfault.com/a/1190000041634906
+golang  GC经验
+https://www.jianshu.com/p/9949faa989d1
+
+高质量视频
+
+https://www.bilibili.com/video/BV1gA4y1R7nE/?spm_id_from=333.788&vd_source=685282ba8ecdba9e5d357c26e4d8ee1b
+
+Net/http
+
+
+源码解读
+https://zhuanlan.zhihu.com/p/609258171
+
+Gin 原理
+https://www.zhihu.com/question/264610995/answer/2919977767
+
+锁——Mutex
+
+https://www.bilibili.com/video/BV1hv411x7we?p=21
+
+
+锁——RWMutex
+
+https://blog.csdn.net/LINZEYU666/article/details/123077252
+
+Goroutine 池化
+
+
+https://blog.csdn.net/finghting321/article/details/106492915
+
+Uintptr 和  unsafe.Pointer
+
+
+https://www.jb51.net/article/258228.htm
+
+内存逃逸
+
+
+
+ go build -gcflags '-m -m -l ' deep/escape.go
+
+
+https://blog.csdn.net/qq_51537858/article/details/128239205
+
+select 多路复用
+
+https://www.jianshu.com/p/5923cde1b6a3

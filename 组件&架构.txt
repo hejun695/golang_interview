@@ -1,0 +1,26 @@
+比较不错的博客
+
+
+https://pdai.tech/md/arch/arch-y-reduce.html
+
+限流、熔断   https://blog.csdn.net/weixin_50205273/article/details/127551540 【偏向于限流】
+
+熔断机制：https://zhuanlan.zhihu.com/p/364872501
+分布式id生成算法——雪花算法
+10-07 ✅
+https://blog.csdn.net/knock_me/article/details/127415351
+
+https://blog.csdn.net/jiaomubai/article/details/124385324
+
+服务注册与发现
+10-07 ✅
+https://blog.csdn.net/namelij/article/details/122100642
+
+VIP
+
+https://www.cnblogs.com/crazylqy/p/7741958.html
+
+LVS
+
+https://zhuanlan.zhihu.com/p/87109094
+

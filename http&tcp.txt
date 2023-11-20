@@ -1,0 +1,17 @@
+Tcp 三次握手和四次挥手
+
+https://blog.csdn.net/qzcsu/article/details/72861891
+
+https
+
+https://zhuanlan.zhihu.com/p/43789231
+
+TCP知识点汇总
+
+https://blog.csdn.net/u011626662/article/details/119025268
+
+
+tcp拥塞控制
+
+
+https://www.bilibili.com/video/BV1L4411a7RN/?spm_id_from=333.999.0.0&vd_source=685282ba8ecdba9e5d357c26e4d8ee1b

@@ -1,0 +1,23 @@
+汇总
+
+10-04 ✅
+https://blog.csdn.net/wanghaiping1993/article/details/125396988
+
+https://blog.csdn.net/m0_46689661/article/details/123076236
+
+分布式锁
+
+10-04 ✅
+https://www.runoob.com/w3cnote/zookeeper-locks.html
+
+Golang client
+
+
+10-05 ✅
+https://github.com/go-zookeeper/zk/blob/master/zk_test.go
+
+
+https://blog.csdn.net/u012986012/article/details/126262734
+
+
+https://www.cnblogs.com/zhichaoma/p/12640064.html

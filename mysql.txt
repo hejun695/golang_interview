@@ -1,0 +1,55 @@
+深度分页问题
+
+https://juejin.cn/post/6985478936683610149
+
+MVCC
+
+https://blog.csdn.net/qq_33591903/article/details/120927753
+
+锁
+
+https://blog.csdn.net/be_racle/article/details/126566613
+
+主从复制
+https://www.cnblogs.com/lemon-flm/p/15219993.html
+
+一条sql的执行过程
+
+
+https://www.cnblogs.com/mengxinJ/p/14045520.html
+
+explain
+
+https://blog.csdn.net/fsdfkjai/article/details/121770629
+
+
+
+写缓冲  change buffer
+
+https://www.modb.pro/db/112469
+
+
+buffer pool
+
+https://www.modb.pro/db/111341
+三种日志binlog/ redo_log/undo_log
+
+
+
+https://blog.csdn.net/qq_33591903/article/details/120517405?ydreferer=aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzNTkxOTAzL2FydGljbGUvZGV0YWlscy8xMjA5Mjc3NTM%3D
+
+
+
+Binlog  redo_log 两阶段提交
+
+https://blog.csdn.net/zekser/article/details/129818161
+
+
+
+
+WAL
+https://www.cnblogs.com/mengxinJ/p/14211427.html
+
+汇总mysql
+
+https://blog.csdn.net/hahazz233/article/details/125372412
